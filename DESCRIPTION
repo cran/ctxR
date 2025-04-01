@@ -1,10 +1,10 @@
 Type: Package
 Package: ctxR
 Title: Utilities for Interacting with the 'CTX' APIs
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: c(
             person("Paul", "Kruse", email = "kruse.paul@epa.gov", 
-              role = c("aut", "cre"), 
+              role = c("aut"), 
               comment = c(ORCID = "0000-0001-5516-9717")),
     	      person("Caroline", "Ring", email = "ring.caroline@epa.gov", 
     	        role = c("aut"), 
@@ -14,7 +14,7 @@ Authors@R: c(
 	            comment = c(ORCID = "0000-0002-1390-6405")),
 	          person("Carter", "Thunes", role = "ctb", 
 	            email = "thunes.carter@epa.gov"),
-    	      person("Jason", "Brown", role = "ctb", 
+    	      person("Jason", "Brown", role = "cre", 
     	        email = "brown.jason@epa.gov")
     	        )
 Description: Access chemical, hazard, bioactivity, and exposure data from the 
@@ -41,12 +41,12 @@ VignetteBuilder: knitr
 Config/testthat/edition: 3
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2025-01-08 13:33:02 UTC; PKRUSE
-Author: Paul Kruse [aut, cre] (<https://orcid.org/0000-0001-5516-9717>),
+Packaged: 2025-04-01 13:09:36 UTC; jbrown20
+Author: Paul Kruse [aut] (<https://orcid.org/0000-0001-5516-9717>),
   Caroline Ring [aut] (<https://orcid.org/0000-0002-0463-1251>),
   Madison Feshuk [ctb] (<https://orcid.org/0000-0002-1390-6405>),
   Carter Thunes [ctb],
-  Jason Brown [ctb]
-Maintainer: Paul Kruse <kruse.paul@epa.gov>
+  Jason Brown [cre]
+Maintainer: Jason Brown <brown.jason@epa.gov>
 Repository: CRAN
-Date/Publication: 2025-01-08 14:00:02 UTC
+Date/Publication: 2025-04-01 23:30:02 UTC
